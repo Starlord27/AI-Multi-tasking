@@ -1,13 +1,14 @@
-- Adding client version for all devices soon.
+# Shared GPU & VRAM from network devices (mobile, android, iphone, laptop, computer, server,...)
 
-# Perform on all network devices supported a GPU & VRAM 
-cut main task and transmit all tensors to all devices GPU & memory devices
-Threading and reconstruct tokens 
-Endpoint from server
+Split the main task into several parallel pieces in order to use the resources of all devices on the local network
 
-# for Model LLM or other in further 
+Finally receive a response as soon as the first tokens are presented via endpoints
 
 # Objectives :
 - Only server load Model LLM 
 - Only use GPU and Memory from network devices (cumulate performance)
 - Optimize delay to render tokens
+
+
+Supported LLM Model & GPT2
+
